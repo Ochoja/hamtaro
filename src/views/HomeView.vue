@@ -9,7 +9,7 @@ import { Icon } from '@iconify/vue'
       <div class="absolute inset-0 bg-black opacity-80"></div>
 
       <!-- Text content -->
-      <div class="relative z-10">
+      <div class="relative z-10 text-center md:text-left">
         <div class="uppercase mb-4 font-medium text-2xl text-gray-400">The new meta is here</div>
         <h1 class="font-bold text-6xl text-white">HAMTARO</h1>
       </div>
@@ -17,7 +17,7 @@ import { Icon } from '@iconify/vue'
 
     <!-- About Section -->
     <section
-      class="grid grid-cols-2 gap-20 px-[15%] py-20 bg-gradient-to-r from-[#0f172a] via-[#1e3a8a] to-[#17328b]"
+      class="grid grid-cols-1 md:grid-cols-2 gap-20 px-[15%] py-20 bg-gradient-to-r from-[#0f172a] via-[#1e3a8a] to-[#17328b]"
     >
       <div class="max-h-[60vh]">
         <img
@@ -38,12 +38,14 @@ import { Icon } from '@iconify/vue'
     </section>
 
     <section class="py-24">
-      <h2 class="text-5xl uppercase font-bold text-center leading-18">
-        $Hamtaro is here to make <br />
+      <h2
+        class="w-[90%] md:w-[60%] mx-auto text-3xl md:text-5xl uppercase font-bold text-center md:leading-18"
+      >
+        $Hamtaro is here to make
         <span class="bg-blue-800">memecoins fun again.</span>
       </h2>
 
-      <div class="grid grid-cols-2 gap-20 px-[15%] py-20 items-center">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-20 px-[15%] py-20 items-center">
         <div>
           <div class="flex gap-4 mb-8">
             <div>
