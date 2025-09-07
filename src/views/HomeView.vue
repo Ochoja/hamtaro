@@ -92,5 +92,14 @@ import { Icon } from '@iconify/vue'
         </div>
       </div>
     </section>
+
+    <footer class="mt-16 text-center">
+      <div class="flex justify-center gap-2">
+        <a href=""><Icon icon="streamline-logos:telegram-logo-2" width="40" height="40" /></a>
+        <a href=""><Icon icon="hugeicons:new-twitter-ellipse" width="40" height="40" /></a>
+      </div>
+
+      <div class="mt-8 text-sm">© 2025 – Hamtaro</div>
+    </footer>
   </main>
 </template>
